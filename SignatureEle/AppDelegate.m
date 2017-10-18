@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "NeedSignViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,8 +18,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    return YES;
-}
+    NeedSignViewController *need = [[NeedSignViewController alloc] init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = need;
+    [self.window makeKeyWindow];
+    return YES;}
 
 
 - (void)applicationWillResignActive:(UIApplication *)application {

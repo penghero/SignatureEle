@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		74907FF41F9731C80084E8D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74907FF31F9731C80084E8D9 /* AppDelegate.m */; };
-		74907FF71F9731C80084E8D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74907FF61F9731C80084E8D9 /* ViewController.m */; };
 		74907FFA1F9731C80084E8D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74907FF81F9731C80084E8D9 /* Main.storyboard */; };
 		74907FFC1F9731C80084E8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74907FFB1F9731C80084E8D9 /* Assets.xcassets */; };
 		74907FFF1F9731C80084E8D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74907FFD1F9731C80084E8D9 /* LaunchScreen.storyboard */; };
 		749080021F9731C80084E8D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 749080011F9731C80084E8D9 /* main.m */; };
 		7490800C1F9731C80084E8D9 /* SignatureEleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7490800B1F9731C80084E8D9 /* SignatureEleTests.m */; };
 		749080171F9731C80084E8D9 /* SignatureEleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 749080161F9731C80084E8D9 /* SignatureEleUITests.m */; };
+		7490802C1F97323A0084E8D9 /* SignatureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749080241F97323A0084E8D9 /* SignatureViewController.xib */; };
+		7490802D1F97323A0084E8D9 /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749080251F97323A0084E8D9 /* SignatureViewController.m */; };
+		7490802E1F97323A0084E8D9 /* NeedSignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 749080261F97323A0084E8D9 /* NeedSignViewController.xib */; };
+		7490802F1F97323A0084E8D9 /* SignatureLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 749080271F97323A0084E8D9 /* SignatureLayer.m */; };
+		749080301F97323A0084E8D9 /* NeedSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 749080281F97323A0084E8D9 /* NeedSignViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +42,6 @@
 		74907FEF1F9731C80084E8D9 /* SignatureEle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignatureEle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74907FF21F9731C80084E8D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		74907FF31F9731C80084E8D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		74907FF51F9731C80084E8D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		74907FF61F9731C80084E8D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		74907FF91F9731C80084E8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74907FFB1F9731C80084E8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74907FFE1F9731C80084E8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,14 @@
 		749080121F9731C80084E8D9 /* SignatureEleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SignatureEleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		749080161F9731C80084E8D9 /* SignatureEleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignatureEleUITests.m; sourceTree = "<group>"; };
 		749080181F9731C80084E8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		749080241F97323A0084E8D9 /* SignatureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignatureViewController.xib; sourceTree = "<group>"; };
+		749080251F97323A0084E8D9 /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
+		749080261F97323A0084E8D9 /* NeedSignViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NeedSignViewController.xib; sourceTree = "<group>"; };
+		749080271F97323A0084E8D9 /* SignatureLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureLayer.m; sourceTree = "<group>"; };
+		749080281F97323A0084E8D9 /* NeedSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NeedSignViewController.m; sourceTree = "<group>"; };
+		749080291F97323A0084E8D9 /* SignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewController.h; sourceTree = "<group>"; };
+		7490802A1F97323A0084E8D9 /* NeedSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NeedSignViewController.h; sourceTree = "<group>"; };
+		7490802B1F97323A0084E8D9 /* SignatureLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureLayer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +113,14 @@
 			children = (
 				74907FF21F9731C80084E8D9 /* AppDelegate.h */,
 				74907FF31F9731C80084E8D9 /* AppDelegate.m */,
-				74907FF51F9731C80084E8D9 /* ViewController.h */,
-				74907FF61F9731C80084E8D9 /* ViewController.m */,
+				7490802A1F97323A0084E8D9 /* NeedSignViewController.h */,
+				749080281F97323A0084E8D9 /* NeedSignViewController.m */,
+				749080261F97323A0084E8D9 /* NeedSignViewController.xib */,
+				7490802B1F97323A0084E8D9 /* SignatureLayer.h */,
+				749080271F97323A0084E8D9 /* SignatureLayer.m */,
+				749080291F97323A0084E8D9 /* SignatureViewController.h */,
+				749080251F97323A0084E8D9 /* SignatureViewController.m */,
+				749080241F97323A0084E8D9 /* SignatureViewController.xib */,
 				74907FF81F9731C80084E8D9 /* Main.storyboard */,
 				74907FFB1F9731C80084E8D9 /* Assets.xcassets */,
 				74907FFD1F9731C80084E8D9 /* LaunchScreen.storyboard */,
@@ -239,6 +255,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				74907FFF1F9731C80084E8D9 /* LaunchScreen.storyboard in Resources */,
+				7490802C1F97323A0084E8D9 /* SignatureViewController.xib in Resources */,
+				7490802E1F97323A0084E8D9 /* NeedSignViewController.xib in Resources */,
 				74907FFC1F9731C80084E8D9 /* Assets.xcassets in Resources */,
 				74907FFA1F9731C80084E8D9 /* Main.storyboard in Resources */,
 			);
@@ -265,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74907FF71F9731C80084E8D9 /* ViewController.m in Sources */,
 				749080021F9731C80084E8D9 /* main.m in Sources */,
+				7490802D1F97323A0084E8D9 /* SignatureViewController.m in Sources */,
+				7490802F1F97323A0084E8D9 /* SignatureLayer.m in Sources */,
+				749080301F97323A0084E8D9 /* NeedSignViewController.m in Sources */,
 				74907FF41F9731C80084E8D9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
