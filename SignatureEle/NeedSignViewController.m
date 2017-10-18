@@ -20,10 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
 }
 
 - (IBAction)helpSign:(id)sender {
-    
+    NSLog(@"跳去GitHub");
 }
 
 - (IBAction)jump:(id)sender {
